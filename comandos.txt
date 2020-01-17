@@ -1,0 +1,15 @@
+$ ssh-keygen -t rsa -b 4096
+$ cat ~/.ssh/id_rsa.pub
+(copiar a chave para Github)
+
+$ cd <diretorio_apache_php>
+$ mkdir <nome_diretorio_a_ser_criado>
+
+$ git init
+$ git remote add origin <url_ssh_github>
+
+$ git pull origin master
+(Criar / adicionar arquivos iniciais)
+$ git add .
+$ git commit -m "descricao"
+$ git push origin master
