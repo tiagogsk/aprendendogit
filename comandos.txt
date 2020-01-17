@@ -13,3 +13,9 @@ $ git pull origin master
 $ git add .
 $ git commit -m "descricao"
 $ git push origin master
+
+Criar Branch's
+$ git checkout -b <nome_branch> ou git branch <nome_branch>
+
+Trocar Branch's
+$ git checkout <nome_branch>
