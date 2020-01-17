@@ -25,3 +25,6 @@ $ git branch -D <nome_branch>
 Merge
 $ git checkout <branch_a_ser_atualizado>
 $ git merge <branch_que_tem_atualizacao>
+
+Voltar commit
+$ git reset --hard <hash_commit>
